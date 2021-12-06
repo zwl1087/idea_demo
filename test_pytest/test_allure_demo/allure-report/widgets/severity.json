@@ -1,0 +1,41 @@
+[ {
+  "uid" : "b0368d952d79ac9",
+  "name" : "Login_No.002_登录失败",
+  "time" : {
+    "start" : 1636895995915,
+    "stop" : 1636895995916,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dfb69626fd619cc1",
+  "name" : "Search_NO.001_搜索失败",
+  "time" : {
+    "start" : 1636895995924,
+    "stop" : 1636895995924,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6b80058a8673cdc",
+  "name" : "Login_No.001_登录成功",
+  "time" : {
+    "start" : 1636895995911,
+    "stop" : 1636895995912,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5ed7f874e54873f",
+  "name" : "Search_NO.001_搜索成功",
+  "time" : {
+    "start" : 1636895995920,
+    "stop" : 1636895995920,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Nov 14 21:19:55 CST 2021","Sun Nov 14 21:19:55 CST 2021","1","","test_allure_demo","TestLoginMoudel","","","Login_No.001_登录成功",""
+"passed","Sun Nov 14 21:19:55 CST 2021","Sun Nov 14 21:19:55 CST 2021","1","","test_allure_demo","TestLoginMoudel","","","Login_No.002_登录失败",""
+"passed","Sun Nov 14 21:19:55 CST 2021","Sun Nov 14 21:19:55 CST 2021","0","","test_allure_demo","TestSearchModel","","","Search_NO.001_搜索失败",""
+"passed","Sun Nov 14 21:19:55 CST 2021","Sun Nov 14 21:19:55 CST 2021","0","","test_allure_demo","TestSearchModel","","","Search_NO.001_搜索成功",""

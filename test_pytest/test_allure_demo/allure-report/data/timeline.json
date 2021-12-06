@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-5N5QG51",
+    "children" : [ {
+      "name" : "11020-MainThread",
+      "children" : [ {
+        "name" : "Login_No.001_登录成功",
+        "uid" : "b6b80058a8673cdc",
+        "parentUid" : "44dc78380516b669aefc8ea8e9ab0d56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636895995911,
+          "stop" : 1636895995912,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login_No.002_登录失败",
+        "uid" : "b0368d952d79ac9",
+        "parentUid" : "44dc78380516b669aefc8ea8e9ab0d56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636895995915,
+          "stop" : 1636895995916,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search_NO.001_搜索失败",
+        "uid" : "dfb69626fd619cc1",
+        "parentUid" : "44dc78380516b669aefc8ea8e9ab0d56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636895995924,
+          "stop" : 1636895995924,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search_NO.001_搜索成功",
+        "uid" : "b5ed7f874e54873f",
+        "parentUid" : "44dc78380516b669aefc8ea8e9ab0d56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636895995920,
+          "stop" : 1636895995920,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44dc78380516b669aefc8ea8e9ab0d56"
+    } ],
+    "uid" : "f03a21efb05c58b1785a15a77e79c041"
+  } ]
+}

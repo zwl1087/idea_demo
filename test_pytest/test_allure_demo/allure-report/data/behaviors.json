@@ -1,0 +1,81 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "登录成功",
+      "children" : [ {
+        "name" : "Login_No.001_登录成功",
+        "uid" : "b6b80058a8673cdc",
+        "parentUid" : "57a00934f1bd353362aa1d78642bc405",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636895995911,
+          "stop" : 1636895995912,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57a00934f1bd353362aa1d78642bc405"
+    }, {
+      "name" : "登录失败",
+      "children" : [ {
+        "name" : "Login_No.002_登录失败",
+        "uid" : "b0368d952d79ac9",
+        "parentUid" : "e3ad7243d130097a0b853dba02afbe33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636895995915,
+          "stop" : 1636895995916,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e3ad7243d130097a0b853dba02afbe33"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  }, {
+    "name" : "搜索模块",
+    "children" : [ {
+      "name" : "搜索成功",
+      "children" : [ {
+        "name" : "Search_NO.001_搜索成功",
+        "uid" : "b5ed7f874e54873f",
+        "parentUid" : "da43f8a2cc3019217dea92e0accf0a0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636895995920,
+          "stop" : 1636895995920,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da43f8a2cc3019217dea92e0accf0a0d"
+    }, {
+      "name" : "搜索失败",
+      "children" : [ {
+        "name" : "Search_NO.001_搜索失败",
+        "uid" : "dfb69626fd619cc1",
+        "parentUid" : "a4cca1b0fe663e2cec2a5f1310228625",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636895995924,
+          "stop" : 1636895995924,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a4cca1b0fe663e2cec2a5f1310228625"
+    } ],
+    "uid" : "93a5c7405f75e51124fe26d231c1b395"
+  } ]
+}

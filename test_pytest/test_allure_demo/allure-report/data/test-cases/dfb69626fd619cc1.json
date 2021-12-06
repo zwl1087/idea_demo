@@ -1,0 +1,59 @@
+{
+  "uid" : "dfb69626fd619cc1",
+  "name" : "Search_NO.001_搜索失败",
+  "fullName" : "test_allure_demo.TestSearchModel#test_search_fail",
+  "historyId" : "15e08dd555bbedf3036278039b7cbd74",
+  "time" : {
+    "start" : 1636895995924,
+    "stop" : 1636895995924,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "搜索失败"
+  }, {
+    "name" : "feature",
+    "value" : "搜索模块"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearchModel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5N5QG51"
+  }, {
+    "name" : "thread",
+    "value" : "11020-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dfb69626fd619cc1.json",
+  "parameterValues" : [ ]
+}

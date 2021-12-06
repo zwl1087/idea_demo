@@ -1,0 +1,59 @@
+{
+  "uid" : "b6b80058a8673cdc",
+  "name" : "Login_No.001_登录成功",
+  "fullName" : "test_allure_demo.TestLoginMoudel#test_login_success",
+  "historyId" : "6a2d2900137c956db240aed8cb9a9596",
+  "time" : {
+    "start" : 1636895995911,
+    "stop" : 1636895995912,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录成功"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginMoudel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5N5QG51"
+  }, {
+    "name" : "thread",
+    "value" : "11020-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6b80058a8673cdc.json",
+  "parameterValues" : [ ]
+}
