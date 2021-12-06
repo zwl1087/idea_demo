@@ -23,3 +23,7 @@ class MainPage(BasePage):
     def goto_mime_info(self):
 
         pass
+
+    def get_main_info(self):
+
+        pass
