@@ -19,3 +19,7 @@ class MainPage(BasePage):
         self.driver.find_element(By.XPATH, '//*[@text="通讯录"]').click()
 
         return ContactPage()
+
+    def goto_mime_info(self):
+
+        pass
