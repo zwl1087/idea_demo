@@ -34,7 +34,7 @@ class TestBrowsers():
             "chromedriverExecutable": "D:\webdirver\chromedriver66\chromedriver.exe",
             "unicodeKeyboard": True,
             "resetKeyboard": True,
-            "noReset": True  # Don't reset app state before this session. See here for more details
+            "noReset": True  # Don't reset app-demo state before this session. See here for more details
         }
 
         self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desire_cap)

@@ -7,7 +7,7 @@ date = 2021/11/27
 """
 
 """
-主要介绍 app 元素的定位的三种方式
+主要介绍 app-demo 元素的定位的三种方式
 id、xpath、accessibility_id
 """
 
@@ -27,7 +27,7 @@ class TestFindElement():
             "appActivity": ".view.WelcomeActivityAlias",
             "unicodeKeyboard": True,
             "resetKeyboard": True,
-            "noReset": True  # Don't reset app state before this session. See here for more details
+            "noReset": True  # Don't reset app-demo state before this session. See here for more details
         }
 
         # 配置 appium server 监听的端口

@@ -20,7 +20,7 @@ def test_first_appium_demo():
     # com.android.settings/com.android.settings.Settings
     # 测试包的名称
     desired_caps['appPackage'] = 'com.android.settings'
-    # app 每个页面都是一个appActivity， 默认指定的页面
+    # app-demo 每个页面都是一个appActivity， 默认指定的页面
     # 获取命令： adb logcat | grep -i displayed
     desired_caps['appActivity'] = 'com.android.settings.Settings'
 

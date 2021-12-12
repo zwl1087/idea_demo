@@ -27,7 +27,7 @@ class BasePage():
             "skipDeviceInitialization": True,
             # 跳过 uiautomator2 服务安装
             "skipServerInstallation": True,
-            # 在运行测试之前，不停止 app ，或者说不重新启动app，必须注意： 执行测试用例时都在同一个相对页面上
+            # 在运行测试之前，不停止 app-demo ，或者说不重新启动app，必须注意： 执行测试用例时都在同一个相对页面上
             # "dontStopAppOnReset": True,
 
             # 等待页面处于idle状态 ，默认10s
@@ -36,7 +36,7 @@ class BasePage():
             "chromedriverExecutable": "D:\webdirver\chromedriver66\chromedriver.exe",
             "unicodeKeyboard": True,
             "resetKeyboard": True,
-            # 防止 清缓存数据 Don't reset app state before this session. See here for more details
+            # 防止 清缓存数据 Don't reset app-demo state before this session. See here for more details
             "noReset": True
         }
 

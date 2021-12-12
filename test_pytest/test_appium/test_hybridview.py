@@ -35,7 +35,7 @@ class TestBrowsers():
             "chromedriverExecutable": "D:\webdirver\chromedriver66\chromedriver.exe",
             "unicodeKeyboard": True,
             "resetKeyboard": True,
-            "noReset": True  # Don't reset app state before this session. See here for more details
+            "noReset": True  # Don't reset app-demo state before this session. See here for more details
         }
         self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desire_cap)
         self.driver.implicitly_wait(10)
@@ -47,7 +47,7 @@ class TestBrowsers():
         self.driver.find_element(MobileBy.XPATH, '//*[@resource-id="com.xueqiu.android:id/tab_name" and @text="交易"]'). \
             click()
         print(self.driver.contexts)
-        self.driver.find_element(MobileBy.XPATH, '//*[@resource-id="app"]//*[@class="android.view.View" and '
+        self.driver.find_element(MobileBy.XPATH, '//*[@resource-id="app-demo"]//*[@class="android.view.View" and '
                                                  '@text="去开户"]').click()
         sleep(2)
         # print(self.driver.page_source)
