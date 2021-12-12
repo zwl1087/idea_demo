@@ -11,9 +11,12 @@ from appium.webdriver.webdriver import WebDriver
 页面基础操作，保存 driver、find、 etc;
 """
 
-class BasePage():
 
-    def __init__(self, driver : WebDriver):
+class BasePage:
 
+    def __init__(self, driver: WebDriver = None):
+        """
+
+        :type driver: object
+        """
         self.driver = driver
-
