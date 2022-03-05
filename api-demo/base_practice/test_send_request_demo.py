@@ -5,7 +5,7 @@ project = pytestProject
 date = 2021/12/18
 
 """
-
+import allure
 import requests
 
 """
@@ -17,18 +17,24 @@ requests 编写测试用例
 class TestBaseDemo:
 
     # 构造简单的 get 请求：【 requests.get(url) 】
+    @allure.title("构造简单的get请求")
+    @allure.story("base request")
     def test_get(self):
         r = requests.get("https://httpbin.testing-studio.com/get")
         print(r.text)
         assert r.status_code == 200
 
     # 构造简单的post请求：【 requests.post(url) 】
+    @allure.title("构造简单的post请求")
+    @allure.story("base request")
     def test_post(self):
         r = requests.post("https://httpbin.testing-studio.com/post")
         print(r.text)
         assert r.status_code == 200
 
     # 构造带有 params 的 get 请求: 【 requests.get(url, params = payload) 】
+    @allure.title("构造带有params的get请求")
+    @allure.story("params")
     def test_get_param(self):
         payload = {
             "level": 1,
@@ -45,6 +51,8 @@ class TestBaseDemo:
 
     # 构造一个简单的 form 请求： 【 requests.post(url,  data= data) 】
     # 模拟用户名密码等表单输入
+    @allure.title("构造一个简单的form请求")
+    @allure.story("form")
     def test_post_form(self):
         data = {
             "level": 1,
@@ -58,6 +66,8 @@ class TestBaseDemo:
         assert r.json()["form"]["name"] == "hogwz-zwl-form"
 
     # 构造 files 请求： 【 requests.post(url, files = open(filepath, "rb")) 】
+    @allure.title("构造files请求")
+    @allure.story("files")
     def test_post_file(self):
         data = {
             "level": 1,
@@ -71,6 +81,8 @@ class TestBaseDemo:
         assert r.status_code == 200
         assert r.json()["files"]["name"] == "hogwz-zwl-files"
 
+    @allure.title("构造json data的post请求")
+    @allure.story("application/json")
     def test_post_json(self):
         data = {
             "level": 1,
@@ -85,6 +97,8 @@ class TestBaseDemo:
         assert r.json()["json"]["name"] == "hogwz-zwl-json"
         assert r.headers["Content-Type"] == 'application/json'
 
+    @allure.title("构造xml data的post请求")
+    @allure.story("application/xml")
     def test_post_xml(self):
         xml = """<?xml version='1.0' encoding='utf-8'?>
                 <languge>
@@ -98,7 +112,9 @@ class TestBaseDemo:
         r = requests.post("https://httpbin.testing-studio.com/post", headers = header, data = xml)
         print(r.text)
 
-    # 构造请求的 header： 【 requests.post(url, headers= header) 】
+    # 构造请求的header： 【 requests.post(url, headers= header) 】
+    @allure.title("构造请求的header")
+    @allure.story("headers")
     def test_request_headers(self):
         header = {
             "level": "1",
@@ -112,7 +128,9 @@ class TestBaseDemo:
         assert r.status_code == 200
         assert r.json()["headers"]["Name"] == "hogwz-zwl"
 
-    # 再请求头中构造 cookies: header
+    # 在请求头中构造 cookies: header
+    @allure.title("在请求头中构造 cookies")
+    @allure.story("Cookies")
     def test_request_cookies_by_header(self):
         # header 传递Cookie时，首字母必须大写，否则不能被识别到
         header = {
@@ -123,7 +141,9 @@ class TestBaseDemo:
         print(r.json()['headers']['Cookie'])
         assert r.json()['headers']['Cookie'] == 'header-cookies-demo'
 
-    # 再请求头中构造 cookies: cookies
+    # 使用cookies构造cookies: cookies
+    @allure.title("使用cookies构造cookies")
+    @allure.story("Cookies")
     def test_request_cookies_by_cookies(self):
         cookies = dict(cookies_demo = "my cookies", cookies_token = "my token")
         r = requests.post("https://httpbin.testing-studio.com/post", cookies = cookies)

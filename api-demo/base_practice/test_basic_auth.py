@@ -21,7 +21,7 @@ class TestBasicAuth():
             "https": "127.0.0.1:8888"
         }
         print(self.get_url())
-        auth = HTTPBasicAuth("banan", "1234")
+        auth = HTTPBasicAuth("banana", "1234")
         r = requests.get(self.get_url(), proxies = proxy, verify = False, auth = auth)
         print(r.request.headers['Authorization'])
         print(r.status_code)

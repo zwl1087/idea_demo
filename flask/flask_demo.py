@@ -30,6 +30,10 @@ def session_handle():
         resp.set_cookie(f"cookie_{k}", v)
     return resp
 
+@app.route("/index")
+def hello_world():
+    return "<a> Hello World ! </a>"
+
 
 if __name__ == '__main__':
     app.run("127.0.0.1", 5000)
